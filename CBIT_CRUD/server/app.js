@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors=require('cors')
-const studentRouter = require('./server/routes/students')
+const studentRouter = require('./routes/students')
 
 
 const url = 'mongodb://127.0.0.1:27017/CBIT_CRUD'
