@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(64, 122, 103);
+}
+
+.cell{
+    background-color: rgb(255, 255, 255); 
+}
+.border{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+}

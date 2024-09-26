@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div>
+    <h1> Registration Form</h1>
+    <form action="" method="post">
+        <div>
+        <label for="1">Enter your Name :</label><br>
+        <input type="text" name="Name" id="1" placeholder="Eg: Shreya">
+    </div>
+    <div>
+        <label for="2">Enter your Roll Number :</label><br>
+        <input type="number" name="Roll" id="2" placeholder="Eg: 160122737023">
+    </div>
+    <div>
+        <label for="3">Enter your Email :</label><br>
+        <input type="email" name="mail" id="3" placeholder="Eg: abc@gmail.com">
+    </div>
+    <div>
+        <label for="4">Enter your Department :</label><br>
+        <select name="dept" id="4">
+            <option value="it">Information technology</option>
+            <option value="cse">Computer science</option>
+            <option value="ece">Electronics and communinucation engineering</option>
+        </select>
+    </div>
+    <div>
+        <label for="5">Enter your Graduation Year :</label><br>
+        <select name="year" id="5" placeholder="year">
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+        </select>
+    </div>
+    <div>
+        <label for="6">Do You want to register for Gen AI course :</label><br>
+        <input type="radio" name="yes" id="6" value="Yes">Yes<br>
+        <input type="radio" name="no" id="6" value="No">No<br>
+    </div>
+    <div>
+        <label for="7">Did you join our whatsapp group :</label><br>
+        <a href="http://www.whatsapp.com">If No, Join Now</a><br>
+        <input type="radio" name="yes" id="7" value="Yes">Yes<br>
+        <input type="radio" name="no" id="7" value="No">No<br>
+    </div>
+    <div>
+        <label for="8">When did you complete your Beginner level :</label><br>
+        <input type="date" name="begin" id="8">
+    </div>
+    <div>
+        <label for="file">Upload your Beginner level Screenshot :</label><br>
+        <input type="file" accept="image/*" id="file">
+    </div>
+    <div>
+        <label for="9">Comments</label><br>
+        <textarea name="comments" id="9" placeholder="Enter your Comments"></textarea>
+    </div>
+        <input type="Submit" value="submit"><br>
+        <input type="Reset" value="reset"><br>
+
+    </form>
+    </div>
+</body>
+</html>
