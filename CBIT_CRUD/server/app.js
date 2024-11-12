@@ -5,7 +5,7 @@ const studentRouter = require('./routes/students')
 
 
 const url = 'mongodb://127.0.0.1:27017/CBIT_CRUD'
-//const url = 'mongodb+srv://shreyasirigadha0784:7780560835@crudoperations.8xcwr.mongodb.net/?retryWrites=true&w=majority&appName=CRUDoperations'
+//const url = 'mongodb+srv://shreyasirigadha0784:dummypassword@crudoperations.8xcwr.mongodb.net/?retryWrites=true&w=majority&appName=CRUDoperations'
 const app = express()
 mongoose.connect(url)
 const con = mongoose.connection
